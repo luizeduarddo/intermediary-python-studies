@@ -43,7 +43,7 @@ for question in questions_base:
         quantity_success += 1
     else:
         os.system('cls')
-        print('Wrong :(')
+        print('Wrong! :(')
 os.system('cls')
 
 print(f'You got it right {quantity_success} in {len(question)} questions')
